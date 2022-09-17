@@ -1,13 +1,11 @@
 let images = {
-  banana: "images/banana.jpg",
+  banana: "images/kigame_profile.jpg",
   orange: "images/orange.jpg",
   watermelon: "images/watermelon.jpg",
 };
 
 function photoDisplay(){
-  document.getElementById("photo").setAttribute("src", images.banana,);
-  document.getElementById("photo1").setAttribute("src", images.orange,);
-  document.querySelector("#photo2").setAttribute("src", images.watermelon,);   
+  document.getElementById("photo").setAttribute("src", images.kigame_profile,); 
  };
 photoDisplay();
 let groceries = [
