@@ -12,4 +12,4 @@ let d = new Date;
 let dayName = daynames[d.getDay()];
 let monthName= months[d.getMonth()];
 year = d.getFullYear();
-document.getElementById("date").textContent = year;
+document.querySelector("#year").innerHTML = year;
