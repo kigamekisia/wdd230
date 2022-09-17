@@ -5,7 +5,7 @@ let images = {
 };
 
 function photoDisplay(){
-  document.getElementById("photo").setAttribute("src", images.kigame_profile,); 
+  document.getElementById("photo").setAttribute("src", images.banana,); 
  };
 photoDisplay();
 let groceries = [
