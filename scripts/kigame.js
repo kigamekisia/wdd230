@@ -9,8 +9,6 @@ function photoDisplay(){
  };
 photoDisplay()
 let d = new Date();
-//let dayName = daynames[d.getDay()];
-//let monthName= months[d.getMonth()];
 let year = d.getFullYear();
 document.querySelector("#year").innerHTML = year;
 let lastModified = document.lastModified;
