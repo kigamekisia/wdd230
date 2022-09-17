@@ -8,8 +8,8 @@ function photoDisplay(){
   document.getElementById("photo").setAttribute("src", images.kigame,); 
  };
 photoDisplay()
-let d = new Date;
-let dayName = daynames[d.getDay()];
-let monthName= months[d.getMonth()];
-year = d.getFullYear();
+let d = new Date();
+//let dayName = daynames[d.getDay()];
+//let monthName= months[d.getMonth()];
+let year = d.getFullYear();
 document.querySelector("#year").innerHTML = year;
