@@ -7,4 +7,4 @@ let images = {
 function photoDisplay(){
   document.getElementById("photo").setAttribute("src", images.kigame,); 
  };
-
+photoDisplay()

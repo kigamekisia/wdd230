@@ -23,10 +23,9 @@ nav ul{
 nav a{
     color:blue;
 }
-button{
-    color: blue;
-}
+
 footer{
     margin-top: 100px;
     height: 65px;
+    align-items: center;
 }
