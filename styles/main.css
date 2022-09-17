@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+    padding: 5px 25px;
+    margin: 0;  
+    align-items: center;
+}
+header {
+    display: grid;
+    grid-template-columns: 500px auto;
+    align-items: center;
+}
+#content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
+    margin: 0;
+}
+nav a{
+    color:blue;
+}
+button{
+    color: blue;
+}
+footer{
+    margin-top: 100px;
+    height: 65px;
+}
