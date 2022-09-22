@@ -1,5 +1,5 @@
 let images = {
-  kigame: "images/kigame_profile.jpg",
+  kigame: "images/kigame_pic.jpg",
   orange: "images/orange.jpg",
   watermelon: "images/watermelon.jpg",
 };
