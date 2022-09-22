@@ -10,7 +10,7 @@ h1, h2 {
 }
 header {
     display: grid;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 200px auto;
     align-items: center;
     background-color: aqua;
 }
