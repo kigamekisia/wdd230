@@ -10,8 +10,9 @@ h1, h2 {
 }
 header {
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 200px auto;
     align-items: center;
+    text-align: center;
     background-color: aqua;
 }
 #content {
@@ -31,7 +32,8 @@ ul a{
 }
 
 footer{
-    margin-top: 100px;
+    margin-top: 30px;
     height: 65px;
     background-color: aqua;
+    text-align: center;
 }
