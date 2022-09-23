@@ -5,8 +5,13 @@ body {
     align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
 }
-h1, h2 {
+h1 {
     font-family: 'Lora', serif;
+    font-size: 1.5 rem;
+}
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 1 rem;
 }
 header {
     display: grid;
@@ -14,6 +19,11 @@ header {
     align-items: center;
     text-align: center;
     background-color: aqua;
+}
+header img{
+    width: 250px;
+    height: auto;
+    float:right;
 }
 #content {
     max-width: 700px;
