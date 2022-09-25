@@ -11,22 +11,22 @@
       margin: 10px 0px;
     }
   
-    section.topic1 {
+    section #first_topic {
       grid-column: 1;
       grid-row: 1;
     }
   
-    section.topic2 {
+    section #second_topic {
       grid-column: 2;
       grid-row: 1;
     }
   
-    section.topic3 {
+    section #third_topic {
       grid-column: 1/3;
       grid-row: 2;
     }
   
-    .image3 {
+    #third {
       width: 100%;
       height: auto;
     }
