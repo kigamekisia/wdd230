@@ -7,11 +7,11 @@ body {
 }
 h1 {
     font-family: 'Lora', serif;
-    font-size: 1.5 rem;
+    font-size: 1 rem;
 }
 h2 {
     font-family: 'Lora', serif;
-    font-size: 1 rem;
+    font-size: 1.5 rem;
 }
 header {
     display: grid;
