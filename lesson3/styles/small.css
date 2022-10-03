@@ -1,8 +1,8 @@
-* {
+ * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-}
+	
+} 
 
 body {
 	font-size: 16px;
@@ -17,7 +17,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	padding: .75rem;
-    background-color:#2342cf;
+    background-color:#141BE7;
     color: white;
 }
 
@@ -35,10 +35,10 @@ h2 {
 	font-size: 1rem;
 }
 
-/* h3 {
+h3 {
 	font-family: 'Lora', serif;
 	font-size: .9rem;
-} */
+} 
 
 p {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -54,7 +54,7 @@ img {
 }
 
 nav {
-	background-color: #2342cf;
+	background-color: #141BE7;
 	margin: 0 auto;
 	max-width: 100%;
 }
@@ -72,13 +72,10 @@ nav ul li a {
 }
 
 /* nav a:hover {
-	background-color: #a4741e;
-	color: black;
+	background-color: ;
+	color: ;
 } */
 
-/* .active {
-	color: #ffc520;
-} */
 
 main {
 	display: grid;
@@ -86,53 +83,69 @@ main {
 	justify-items: center;
 }
 
-/* table {
-	width: 100%;
-}
-
-tr {
-	display: grid;
-	grid-template-columns: 2fr 2fr 1fr 4fr;
-	padding: 1rem;
-	border: 1px solid black;
-	align-items: center;
-}
-
+table,
+th,
 td {
-	padding: .5rem;
-	font-size: .75rem;
-	text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 20px;
+}
+table {
+  width: 90%;
+  align-items: center;
 }
 
-td:nth-child(2) {
-	text-align: center;
+
+.primary {
+	background-color:#19da36;
+}
+  
+.secondary {
+	background-color: #141BE7;
+}
+  
+.accent1 {
+	background-color: #ABC7E1;
+}
+.accent2 {
+	background-color: #FFFFFF;
 }
 
-.color-table {
-	grid-template-columns: 1fr 1fr;
+.sample1{
+	color: #FFFFFF;
+  	background-color: #141BE7;
+  	font-size: 40px;
+}
+.sample2 {
+	background-color: #141BE7;
+	color: #FFFFFF;
+	font-size: 24px;
+  }
+.sample7 {
+  color: #FFFFFF;
+  background-color: #141BE7;
+  font-size: 20px;
 }
 
-#main-color {
-	color: white;
-	background-color: #472b1f;
-}
 
-#secondary-color {
-	color: white;
-	background-color: #FFC520;
+.sample3{
+	background-color: #ffffff;
+  	color: #000;
+	font-size: 35px;
 }
-
-#accent-1 {
-	color: white;
-	background-color: #A4741E;
+.sample4{
+	background-color: #ffffff;
+  	color: #000;
+	font-size: 30px;
 }
-
-#accent-2 {
-	color: white;
-	background-color: #BB8C4A;
+.sample5{
+	background-color: #ffffff;
+  	color: #000;
+	font-size: 25px;
 }
-
-#site-header {
-	font-size: 2.4rem;
-	font-family: 'lora', serif;
-} */
+.sample6 {
+  background-color: #ffffff;
+  color: #000;
+  font-size: 16px;
+}
