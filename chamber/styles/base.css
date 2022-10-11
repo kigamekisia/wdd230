@@ -9,21 +9,99 @@ body {
     max-width: 100%;
     text-align: center;
 }
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+/* header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	background-color: #141BE7;
+	color: white;
+	text-decoration: none;
+} */
+.theheader {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.heading {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+} 
+.logo{
+	align-items: center;
+}
 
+.date {
+	background-color: #141BE7;
+	width: 100%;
+	margin: 10px;
+	margin-bottom: 20px;
+	grid-column: 1/4;
+	grid-row: 2;
+}
 header,
 footer {
+	text-align: center;
+	color: white;
+	background-color: #141BE7;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	/*padding: .75rem;*/
-    background-color:#141BE7;
-    color: white;
-    text-decoration: none;
 }
-
-footer{
+footer {
+	padding: .75rem;
     margin-top: 10px;
+	font-size: 16px;
+} 
+
+footer a {
+	text-decoration: none;
+	/*color: white;*/
+}
+main {
+	padding: 10px;
+	margin: 10px;
+	display: grid;
+}
+  
+main section {
+	text-align: start;
+	padding: 10px 100px 100px 10px;
+	border: 1px solid black;
+	margin: 5px;
+	background-color: lightgrey;
+}
+  
+section.spoth {
+	padding: 0px;
+}
+  
+section.join,
+section.spothlight3 {
+	display: none;
+}
+  
+section.spothlight1,
+section.spothlight2 {
+	grid-area: auto;
+}
+  
+nav button {
+	margin: 0.2rem 2vw;
+	background: black;
+	font-size: 2rem;
+	color: white;
+	border: none;
 }
 
 h1 {
@@ -49,38 +127,54 @@ h1, h2, p {
 	padding: .5rem;
 }
 
-img {
+/* img {
 	width: 250px;
 	height: 46px;
-}
+} */
 
 nav {
-	background-color: #141BE7;
 	margin: 0 auto;
 	max-width: 100%;
-}
- nav ul {
+	font-size: 16px;
+}  
+nav ul {
+	display: none;
+	margin: opx; 
+	padding: 0px;
 	list-style-type: none;
 	overflow: hidden;
-} 
+}  
 nav ul li a {
 	display: block;
 	color: white;
-	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 1rem;
+} 
+
+nav ul.open {
+	display: block;
 }
 
 nav a:hover {
 	background-color: #19da36;
-} 
-
-
-main {
-	display: grid;
-	grid-template-columns: 1fr;
-	justify-items: center;
 }
-
+#hamburgerBtn span:nth-child(1) {
+	display: block;
+}
+  
+#hamburgerBtn.open span:nth-child(1) {
+	display: none;
+}
+  
+#hamburgerBtn span:nth-child(2) {
+	display: none;
+}
+  
+#hamburgerBtn.open span:nth-child(2) {
+	display: block;
+}
+.social img {
+	width: 45px;
+}
 
