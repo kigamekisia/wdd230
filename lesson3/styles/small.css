@@ -1,8 +1,8 @@
  * {
 	margin: 0;
 	padding: 0;
-	
-} 
+
+}
 
 body {
 	font-size: 16px;
@@ -38,7 +38,7 @@ h2 {
 h3 {
 	font-family: 'Lora', serif;
 	font-size: .9rem;
-} 
+}
 
 p {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -48,10 +48,10 @@ h1, h2, p {
 	padding: .5rem;
 }
 
-img {
+/* img {
 	width: 250px;
 	height: 46px;
-}
+} */
 
 nav {
 	background-color: #141BE7;
@@ -61,7 +61,7 @@ nav {
  nav ul {
 	list-style-type: none;
 	overflow: hidden;
-} 
+}
 nav ul li a {
 	display: block;
 	color: white;
@@ -73,7 +73,7 @@ nav ul li a {
 
 nav a:hover {
 	background-color: #19da36;
-} 
+}
 
 
 main {
@@ -99,11 +99,11 @@ table {
 .primary {
 	background-color:#141BE7;
 }
-  
+
 .secondary {
 	background-color: #19da36;
 }
-  
+
 .accent1 {
 	background-color: #ABC7E1;
 }
