@@ -95,6 +95,13 @@ section.spothlight1,
 section.spothlight2 {
 	grid-area: auto;
 }
+
+.hero_btn {
+    
+    border-radius: 15px;
+    padding: 12px 22px;
+    text-align: center;
+}
   
 nav button {
 	margin: 0.2rem 2vw;
