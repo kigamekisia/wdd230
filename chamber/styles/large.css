@@ -18,7 +18,7 @@
 	
 	main{
 		grid-template-columns: 1fr 2fr 1fr;
-		grid-template-rows: repeat(3, 9em);
+		grid-template-rows: repeat(3, 1fr);
 	}
 	.heading {
 		grid-column: 2/3;
@@ -52,7 +52,7 @@
 	}
 	
 	section.join {
-		display: inline;
+		display: block;
 		grid-column: 1/2;
 		grid-row: 3;
 	}
@@ -74,7 +74,8 @@
 	}
 	
 	section.spothlight3 {
-		display: inline;
+		display: block;
+		flex: 1;
 	}
 	
 	nav button {
