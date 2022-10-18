@@ -18,6 +18,7 @@ body {
 	text-align: right;
 	margin-right: 10px;
 }
+
 .yello_btn{
 	margin-top: 10px;
 	line-height: 2em;
@@ -163,7 +164,7 @@ nav {
 }
 nav ul {
 	display: none;
-	margin: opx;
+	margin: 0px;
 	padding: 0px;
 	list-style-type: none;
 	overflow: hidden;
