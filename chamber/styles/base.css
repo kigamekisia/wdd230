@@ -9,6 +9,15 @@ body {
     max-width: 100%;
     /* text-align: center; */
 }
+#banner{
+	padding: 2px;
+	background-color: #19da36;
+	text-align: center;
+}
+.showme{
+	display: block;
+}
+.hideme{display: none;}
 header {
 	display: flex;
 	flex-direction: column;
@@ -67,7 +76,7 @@ main {
 }
 
 main section {
-	text-align: centre;
+	text-align: center;
 	/* padding: 10px 100px 100px 10px; */
 	border: 1px solid black;
 	margin: 5px;
