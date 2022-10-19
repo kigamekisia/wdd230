@@ -8,6 +8,6 @@ let month = ["January", "Febuary", "March", "April", "May", "June", "July", "Aug
 document.getElementById("date").textContent = day + ", " + String(d.getDate()) + " " + month + " " + d.getFullYear();
 
 // banner
-if(d.getDay() ==1 || d.getDay() == 2){
-    document.getElementById("banner").style.display="block";
-} 
+if (d.getDay() == 1 || d.getDay() == 2) {
+    document.getElementById("banner").style.display = "block";
+}

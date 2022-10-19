@@ -13,6 +13,7 @@ body {
 	padding: 2px;
 	background-color: #19da36;
 	text-align: center;
+	display: none;
 }
 .cloud{
 	text-align: right;
