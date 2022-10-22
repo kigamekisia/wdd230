@@ -44,7 +44,11 @@
         <section class="hero">
           <!-- <div class="hero_message"> -->
           <h2>Welcome to Vihiga</h2>
-          <img src="images/hero.jpg" alt="Vihiga image">
+          <picture>
+            <source media="(min-width:1201px)" srcset="images/large.jpg">
+            <source media="(min-width:801px)" srcset="images/medium.jpg">
+            <img src="images/small.jpg" alt="Hero Image">
+          </picture>
           <button>Join the Chamber</button>
           <!-- </div> -->
         </section>
