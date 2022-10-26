@@ -20,6 +20,9 @@ body {
 	align-content: center;
 	margin-left: 20px;
 }
+#temp{
+	margin-left: 20px;
+}
 .cloud{
 	text-align: right;
 	margin-right: 10px;
@@ -55,7 +58,7 @@ header {
 }
 .logo{
 	align-items: center;
-	/* width: 100%; */
+	width: 100%;
 }
 
 .date {

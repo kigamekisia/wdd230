@@ -20,7 +20,7 @@
   </diV>
     <header>
       <div class="theheader">
-        <div class="logo"><img src="images/logo.jpg" alt="Website Logo" width="250" height="46"></div>
+        <div class="logo"><img src="images/logo.webp" alt="Website Logo" width="250" height="46"></div>
         <section class="heading">
           <h1>Vihiga Chamber of Commerce</h1>
         </section>
@@ -57,15 +57,15 @@
         </section>
         <section class="weather">
           <h3>Weather</h3>
-          <!-- <p class="temp"><img src="images/sky.jpg" alt="Weather">33&deg;C</p> -->
-          <!-- <div class="skytemp">
+          <!-- <p class="temp"><img src="images/sky.jpg" alt="Weather">33&deg;C</p>  -->
+          <div class="skytemp">
             <img src="images/sky.jpg" alt="Weather">
-            <span class="temp">33&deg;C</span>
-          </div> -->
+            <p><span id="temp">33</span>&deg;C</p>
+          </div>
           <p class="cloud">Partly Cloudy</p>
           <hr>
-          <p>Wind Speed: 2.5 km/h</p>
-          <p>Wind Chill: N/A</p>
+          <p>Wind Speed: <span id="wind">2.5</span> km/h</p>
+          <p>Wind Chill: <span id="chill">N/A</span>&#8457;</p>
         </section>
         <section class="join">
           <button class="yello_btn">Join Us!</button>
@@ -106,7 +106,7 @@
         </section>
     </main>
     <footer>
-        <div class="footerlogo"><img src="images/logo.jpg" alt="Website Logo" width="250" height="46"></div>
+        <div class="footerlogo"><img src="images/logo.webp" alt="Website Logo" width="250" height="46"></div>
         <div class="information">
           <h2>Vihiga Chamber of Commerce</h2>
           <p>1060 Maragoli</p>
@@ -123,5 +123,6 @@
     </footer>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/navbutton.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
