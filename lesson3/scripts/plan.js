@@ -1,5 +1,5 @@
 let images = {
-    logo: "images/logo.jpg",
+    logo: "images/logo.webp",
   };
   
   function photoDisplay(){
