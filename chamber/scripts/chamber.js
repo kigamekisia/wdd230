@@ -11,3 +11,4 @@ document.getElementById("date").textContent = day + ", " + String(d.getDate()) +
 if (d.getDay() == 1 || d.getDay() == 2) {
     document.getElementById("banner").style.display = "block";
 }
+
