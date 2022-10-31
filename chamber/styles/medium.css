@@ -106,4 +106,8 @@
 	p{
 		grid-column: 1/4;
 	}
+	/* gallery */
+	/* .photos .gallery {
+        display: inline-block;
+    } */
 }
