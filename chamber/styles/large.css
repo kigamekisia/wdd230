@@ -97,7 +97,10 @@
 		grid-column: 4/5;
 		grid-row: 1;
 	}
+
 	/* gallery */
-	
+	section img:hover {
+        filter: saturate(10%);
+    }
 	
 }
