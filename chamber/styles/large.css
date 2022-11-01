@@ -98,9 +98,17 @@
 		grid-row: 1;
 	}
 
-	/* gallery */
-	section img:hover {
+	/* discover */
+	.message{
+		background-color:#19da36;
+		padding: 10px;
+		border-radius: 10px;
+	}
+	.demographics{
+		grid-column: 1/-1;
+	}
+	.discover img:hover {
         filter: saturate(10%);
-    }
+    } 
 	
 }
