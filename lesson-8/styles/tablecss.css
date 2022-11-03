@@ -1,0 +1,60 @@
+:root {
+	--back: black;
+  --back2: #ABC7E1;
+  --foredark: #141BE7;
+	--forelight: hsla(0,0%,100%,1);
+	--border: #141BE7;
+	--borderlight: #ABC7E1;
+	--shadow: #ABC7E1;
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:first-child th, .highlight {
+	background-color: #19da36;
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+@media only screen and (min-width: 37.5em) {
+    table {
+        width: 50%;
+      }
+  }
+
+  @media only screen and (min-width: 60em) {
+
+    table {
+        width: 30%;
+        
+        
+      }
+  }
