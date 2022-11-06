@@ -229,3 +229,27 @@ nav a:hover {
 	height: 300px;
 	margin: 0px;
 }
+
+/* form */
+form {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 20px 1fr 4fr 20px;
+	background-color: aqua;
+}
+
+label {
+    text-align: right;
+    grid-column: 2/3;
+}
+
+input, select, textarea {
+    grid-column: 3/4;
+    resize: none;
+}
+
+button {
+    grid-column: 2/4;
+    width: 200px;
+    margin: 0 auto;
+}
