@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/join.css">
 </head>
 <body>
   <diV id="banner">
@@ -41,38 +42,45 @@
       <div id="date"></div>
     </header>
     <main class="join">
-        <form action="thank-you.html">
+      <!-- <section> -->
+        <form method="get" action="thank-you.html">
+            <!-- <h2>Information</h2> -->
             <label for="fname">First Name *</label><input type="text" name="fname" id="fname" required>
             <label for="lname">Last Name *</label><input type="text" name="lname" id="lname" required>
-            <label for="business">Company *</label><input type="text" name="business" id="business" required>
             <label for="title">Position/Title </label><input type="text" name="title" id="title" pattern="[a-zA-Z0-9 \-].{7,}">
-            <label for="desc">Business Description </label><textarea name="desc" id="desc" rows="4"></textarea>
-            <label for="email">Email </label><input type="email" name="email" id="email" placeholder="example@email.com">
+            <label for="email">Email *</label><input type="email" name="email" id="email" placeholder="someone@email.com" required>
             <label for="cell">Tel *</label><input type="tel" name="cell" id="cell" required>
+            <label for="business">Business Name*</label><input type="text" name="business" id="business" required>
+            <label for="desc">Business Description </label><textarea name="desc" id="desc" rows="4"></textarea>
+
             <label for="type">Membership Type </label>
             <select name="type" id="type">
                 <option value="np">Non-Profit</option>
-                <option value="b">Bronze</option>
-                <option value="s">Silver</option>
-                <option value="g">Gold</option>
+                <option value="brn">Bronze</option>
+                <option value="slv">Silver</option>
+                <option value="gld">Gold</option>
             </select>
             <input type="hidden" name="time" id="time">
             <button type="submit">Submit</button>
         </form>
-    </section>
-
-    <section class="sidebar exclude-small">
-        <fieldset id="memblvl">
-            <legend>Membership Levels</legend>
-            <div>Level</div>
-            <label class="sbs"><input type="radio" name="level" value="beginner">NP Membership</label>
-            <label class="sbs"><input type="radio" name="level" value="beginner">Bronze Membership</label>
-            <label class="sbs"><input type="radio" name="level" value="beginner">Silver Membership</label>
-            <label class="sbs"><input type="radio" name="level" value="beginner">Gold Membership</label>
-            <label class="top">Business Description</label>
-            <textarea id="description" name="description" rows="12" cols="50"></textarea>
-            <label class="sbs"><input type="date" name="title" hidden></label>
-        </fieldset>
+      <!-- </section> -->
+    <section class="sidebar">
+      <h3>Membership Levels</h3>
+      <h4>Non-Profit Membership</h4>
+      <p>This membership level is for non profit organizations and it is free with no membership fees</p>
+      <h4>Bronze Membership</h4>
+      <p>The Bronze level is for small and micro enterprises. The membership fees is $10.
+        You will be able to recieve numerous trainings to grow your business.
+      </p>
+      <h4>Silver Membership</h4>
+      <p>Silver level is for medium level businesses. The membership is $20. You will receieve capacity building and
+        your business will be advertised to provide linkages to the market.
+      </p>
+      <h4>Gold Membership</h4>
+      <p>Gold level is for large business especially manufacturing. The memebership fees is $40. You will be
+        linked diercetly to the consumers to buy your products both locally and internationally Besides
+        advertisement and capacity building.
+      </p>
     </section>
     </main>
     <footer>
@@ -94,5 +102,6 @@
     <script src="scripts/chamber.js"></script>
     <script src="scripts/navbutton.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/join.js"></script>
 </body>
 </html>
