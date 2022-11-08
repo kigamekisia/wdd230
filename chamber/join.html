@@ -10,9 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <!-- <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/large.css"> -->
     <link rel="stylesheet" href="styles/join.css">
 </head>
 <body>
@@ -41,10 +41,10 @@
       </div>
       <div id="date"></div>
     </header>
-    <main class="join">
-      <!-- <section> -->
-        <form method="get" action="thank-you.html">
-            <!-- <h2>Information</h2> -->
+    <main class="join-main">
+      <section>
+        <h2> Member Information</h2>
+        <form method="get" action="thankyou.html">
             <label for="fname">First Name *</label><input type="text" name="fname" id="fname" required>
             <label for="lname">Last Name *</label><input type="text" name="lname" id="lname" required>
             <label for="title">Position/Title </label><input type="text" name="title" id="title" pattern="[a-zA-Z0-9 \-].{7,}">
@@ -63,9 +63,9 @@
             <input type="hidden" name="time" id="time">
             <button type="submit">Submit</button>
         </form>
-      <!-- </section> -->
+      </section>
     <section class="sidebar">
-      <h3>Membership Levels</h3>
+      <h2>Membership Levels</h2>
       <h4>Non-Profit Membership</h4>
       <p>This membership level is for non profit organizations and it is free with no membership fees</p>
       <h4>Bronze Membership</h4>
