@@ -114,7 +114,7 @@
 		text-align: center;
 		border: solid #19da36;
 	}
-	.discover img:hover {
+	.discover-main img:hover {
         filter: saturate(10%);
     } 
 	/*Join Page */
