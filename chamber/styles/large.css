@@ -16,7 +16,7 @@
     	width: 100%;
 	}
 	
-	main{
+	.home-main{
 		grid-template-columns: 1fr 2fr 1fr;
 		grid-template-rows: repeat(3, 1fr);
 	}
@@ -37,26 +37,26 @@
 	nav ul li a {
 		font-size: 1.5rem;
 	} 
-	section.hero {
+	.hero {
 		grid-column: 2/3;
 		grid-row: 1/3;
 	}
-	section.event {
+	.event {
 		grid-column: 1/2;
 		grid-row: 1;
 	}
 	
-	section.weather {
+	.weather {
 		grid-column: 1/2;
 		grid-row: 2;
 	}
 	
-	section.join {
+	.join {
 		display: block;
 		grid-column: 1/2;
 		grid-row: 3;
 	}
-	section.newsrelease {
+	.newsrelease {
 		grid-column: 2/3;
 		grid-row: 3;
 	}
@@ -66,14 +66,14 @@
 		grid-column: 3/4;
 		grid-row: 1/4;
 	}
-	section.spothlight1,
-	section.spothlight2,
-	section.spothlight3 {
+	.spothlight1,
+	.spothlight2,
+	.spothlight3 {
 		height: 100%;
 		width: auto;
 	}
 	
-	section.spothlight3 {
+	.spothlight3 {
 		display: block;
 		flex: 1;
 	}
@@ -99,16 +99,28 @@
 	}
 
 	/* discover */
+	.discover-main picture {
+		display: flex;
+		flex-direction: column;
+		align-items: center; 
+	}
 	.message{
 		background-color:#19da36;
 		padding: 10px;
 		border-radius: 10px;
+		text-align: center;
 	}
 	.demographics{
-		grid-column: 1/-1;
+		text-align: center;
+		border: solid #19da36;
 	}
 	.discover img:hover {
         filter: saturate(10%);
     } 
-	
+	/*Join Page */
+	.join-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
 }
