@@ -1,0 +1,18 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+h1{
+    text-align: center;
+}
+img{
+    width: auto;
+	max-width: 325px;
+  height: 200px;
+}
+div.cards section {
+    margin: 1rem;
+    background-color: aqua;
+    border-radius: 3px;
+    text-align: center;
+  }
