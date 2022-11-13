@@ -279,3 +279,18 @@ button {
 	align-items: center;
 	text-align: center;
 }
+/* directory */
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+.kig img {
+	height: 200px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+	padding: 0.5rem;
+}
+.kig{
+	padding: 0.5rem;
+	text-align: center;
+}
