@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -279,18 +280,74 @@ button {
 	align-items: center;
 	text-align: center;
 }
-/* directory */
-.grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
-}
-.kig img {
-	height: 200px;
-	max-width: 100%; /* Images are jerks - Seattle*/
+/*directory*/
+.menu {
+	margin: 1rem auto;
 	padding: 0.5rem;
-}
-.kig{
-	padding: 0.5rem;
+	background-color: #bbb;
 	text-align: center;
 }
+
+.menu button {
+	padding: 1rem;
+}
+
+/* .main-directory h1 {margin-left: 1.5rem;} */
+
+/* .menu {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	text-align: center;
+} */
+
+/* .menu img {cursor: pointer; padding: .5rem;} */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    border-radius: 5px;
+	text-align: center;
+	justify-items: center;
+}
+
+.cards div {
+	width: 360px;
+	background-color: #ccc;
+	box-shadow: 0 0 15px rgb(229, 186, 186); 
+	border-radius: 10px;
+	margin: 1.5rem;
+	padding: 0.5rem;
+
+}
+
+.cards img {
+    width: 300px;
+    height: 250px;
+	/* margin-bottom: 8px; */
+}
+
+/* div.cards p:nth-child(0){
+	color: #14213D;
+} */
+
+.cards p { 
+	margin: 5px; 
+	font-size: 20px;
+}
+.cards a { 
+	margin: 5px; 
+	font-size: 20px;
+}
+.list {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+
+.list div{
+	width: auto;
+	align-items: center;
+}
+
+.list p {margin: 0;}
+.list img {display: none;}

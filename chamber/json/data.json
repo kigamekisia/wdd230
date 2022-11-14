@@ -1,0 +1,75 @@
+{
+  "members": [
+    {
+      "name": "The Stalwart Heritage",
+      "address": "1060-Maragoli",
+      "contact": "07151514733",
+      "membershiplevel": "Gold",
+      "websiteurl": "https://stalwartheritage.com/",
+      "image": "images/stalwart.jpg"
+    },
+    {
+      "name": "Travel Inside Africa",
+      "address": "1500-Nairobi",
+      "contact": "264471974",
+      "membershiplevel": "Silver",
+      "websiteurl": "www.travelinsideafrica.com",
+      "image": "images/travel.jpg"
+    },
+    {
+      "name": "Vihiga Tourism Center",
+      "address": "1314-Maragoli",
+      "contact": "29641870",
+      "membershiplevel": "bronze",
+      "websiteurl": "www.vihigatourism.com",
+      "image": "images/vihiga.jpg"
+    },
+    {
+      "name": "Sosa Cottages",
+      "address": "1964-Vihiga",
+      "contact": "28541966",
+      "membershiplevel": "Silver",
+      "websiteurl": "https://sosacottages.com/",
+      "image": "images/sosa.jpg"
+    },
+    {
+      "name": "Inside Out Consultancy",
+      "address": "7099-Kisumu",
+      "contact": "2287655390",
+      "membershiplevel": "Silver",
+      "websiteurl": "www.insideout.com",
+      "image": "images/inside.png"
+    },
+    {
+      "name": "BroadPark",
+      "address": "1543-Maragoli",
+      "contact": "547255190667",
+      "membershiplevel": "Gold",
+      "websiteurl": "www.broadpark.com",
+      "image": "images/broad.jpg"
+    },
+    { "name": "Weaverbird Nature",
+      "address": "097553-Kapsabet",
+      "contact": "34678129334",
+      "membershiplevel": "bronze",
+      "websiteurl": "www.weaverbird.com",
+      "image": "images/weaver.jpg"
+    },
+    {
+      "name": "Wagtail Safaris",
+      "address": "52-Nairobi",
+      "contact": "0756481453",
+      "membershiplevel": "Gold",
+      "websiteurl": "www.wagtail.com",
+      "image": "images/wag.jpg"
+    },
+    {
+      "name": "Decastro Foundation",
+      "address": "865-Maragoli",
+      "contact": "075166129556",
+      "membershiplevel": "NP",
+      "websiteurl": "www.decastrofoundation.com",
+      "image": "images/sun.jpg"
+    }  
+  ]
+}
