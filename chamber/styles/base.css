@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	/*-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;  */
 }
 
 body {
@@ -220,8 +222,13 @@ nav a:hover {
 #hamburgerBtn.open span:nth-child(2) {
 	display: block;
 }
+.social{
+	margin: 0;
+	
+}
 .social img {
 	width: 45px;
+	
 }
 /* discover */
 
@@ -283,6 +290,7 @@ button {
 /*directory*/
 .menu {
 	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	background-color: #bbb;
 	text-align: center;
@@ -291,16 +299,6 @@ button {
 .menu button {
 	padding: 1rem;
 }
-
-/* .main-directory h1 {margin-left: 1.5rem;} */
-
-/* .menu {
-	margin: 1rem auto;
-	padding: 0.5rem;
-	text-align: center;
-} */
-
-/* .menu img {cursor: pointer; padding: .5rem;} */
 
 .cards {
     display: grid;
@@ -311,7 +309,7 @@ button {
 }
 
 .cards div {
-	width: 360px;
+	width: auto;
 	background-color: #ccc;
 	box-shadow: 0 0 15px rgb(229, 186, 186); 
 	border-radius: 10px;
@@ -323,31 +321,53 @@ button {
 .cards img {
     width: 300px;
     height: 250px;
-	/* margin-bottom: 8px; */
 }
 
-/* div.cards p:nth-child(0){
-	color: #14213D;
-} */
-
 .cards p { 
-	margin: 5px; 
+	margin: 5px;
 	font-size: 20px;
 }
 .cards a { 
-	margin: 5px; 
+	margin: 5px;
 	font-size: 20px;
 }
+
+.list p {
+	margin: 0;
+}
+.list a {
+	margin: 0;
+} 
 .list {
-	text-align: left;
 	display: flex;
 	flex-direction: column;
+	text-align: left;
 }
 
-.list div{
-	width: auto;
+.list div {
 	align-items: center;
+	width: auto;
 }
 
-.list p {margin: 0;}
-.list img {display: none;}
+.grid div {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid div > * {
+	margin: 0.1rem;
+}
+
+.list div {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list div > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list div img {
+	display: none; /* smaller viewports only */
+}
