@@ -1,8 +1,11 @@
-const currentTemp = document.querySelector('#current-temp');
+const currentTemp = document.querySelector('#currenttemp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
+const windSpeed = document.querySelector('#wind');
+const windhill = document.querySelector('#chill');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=b4141c602219259a17711cb3272f3409';
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Maragoli&units=imperial&appid=b4141c602219259a17711cb3272f3409';
 
 async function apiFetch() {
     try {
@@ -26,8 +29,12 @@ function displayResults(weatherData) {
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
+    const wind = weatherData.wind.speed;
+    
+    windSpeed.innerHTML = wind;
 
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    
 }

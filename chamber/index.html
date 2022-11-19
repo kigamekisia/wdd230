@@ -58,14 +58,20 @@
         </section>
         <section class="weather">
           <h3>Weather</h3>
-          <div class="skytemp">
+          <!-- <div class="skytemp">
             <img src="images/sky.png" alt="Weather">
             <p><span id="temp">33</span>&deg;C</p>
-          </div>
-          <p class="cloud">Partly Cloudy</p>
+          </div> -->
+          <figure>
+            <img src="" alt="" id="weather-icon" height="70" width="70"/>
+            <figcaption></figcaption>
+          </figure>
+          <p class="temperature"><span id="currenttemp"></span>ºC</p>
+          <p id="desc" class="temperature"></p>
+          <!-- <p class="cloud">Partly Cloudy</p> -->
           <hr>
           <p>Wind Speed: <span id="wind">2.5</span> km/h</p>
-          <p>Wind Chill: <span id="chill">N/A</span>&#8457;</p>
+          <p>Wind Chill: <span id="chill">N/A</span>&#8457;</p> 
         </section>
         <section class="join">
           <button class="yello_btn">Join Us!</button>
@@ -120,9 +126,11 @@
         <hr>
         <p>&copy;<span id="year"></span> Vihiga Chamber | Geoffrey Kigame Kisia | WDD 230 Project
         Last modification: <span id="modified"></span></p>
+        <p>Weather Source : OpenWeatherMap</p>
     </footer>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/navbutton.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@ let tempElement = document.getElementById("temp");
 let windElement = document.getElementById("wind");
 let chillElement = document.getElementById("chill");
 
-const wind = Math.floor(Math.random() * 100) / 10;
+const wind = Math.floor(Math.random() * 100) / 10; 
 const temp = Math.floor(Math.random() * 100);
 
 tempElement.textContent = temp;
