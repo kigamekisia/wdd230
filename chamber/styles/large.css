@@ -133,6 +133,45 @@
 		width: 100px;
 		height: 75px;
 	}
-	
+	/*-----------------------------CONTACT PAGE-------------------------------*/
+
+	/*.contact-main {
+		margin: 20px; 
+		width: 100%;
+		display: flex; 
+		justify-content: center;
+	}
+
+	.contact {
+		width: 100%;
+	}  
+	/* .contact-info {  
+		width: auto; 
+		height: auto; 
+		text-align: left;
+	}
+	.contact-info {width: auto; height: auto; text-align: left;} */
+
+	/* section.contact-info {padding-left: 3rem;} */
+	/* iframe {max-width: none} */
+	.contact-main {
+		margin: 20px; 
+		/* width: 100%; */
+		display: flex; 
+		justify-content: center; 
+		
+	}
+
+	.contact-info {
+		width: 50%; 
+		height: auto;
+		text-align: left;
+		margin-left: 0px;
+		background-color: aqua;
+		border: solid #19da36;
+	} 
+
+	section.contact-info {padding-left: 3rem;} 
+
 	
 }

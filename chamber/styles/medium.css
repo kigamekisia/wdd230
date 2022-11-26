@@ -124,5 +124,8 @@
         justify-items: center;
         align-content: center;
     }
+	/*CONTACT PAGE*/
+
+	.contact-info {text-align: center;}
 
 }

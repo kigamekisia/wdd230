@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name ="author" content="Kigame Kisia">
-    <meta name ="description" content="Chamber of Commerce directory page for Kigame Kisia">
-    <title>Vihiga Chamber of Commerce| Directory</title>
+    <meta name ="description" content="Chamber of Commerce Thanks page for Kigame Kisia">
+    <title>Vihiga Chamber of Commerce| Thanks Page</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,16 +42,39 @@
       </div>
       <div id="date"></div>
     </header>
-    <main>  
-      <div class="menu">
-        <button id="grid">Grid</button>
-        <button id="list">List</button>
-      </div>
-      <hr>
-      <div class="cards">
-        
-      </div>
-     </main>
+    <main class="contact-main"> 
+      <div class="contact-form">
+        <form class="cont-form" method="get" action="contactresponse.html">
+            <fieldset>
+                <h1>Contact Us</h1>
+                
+                <label class="top" for="name">Name* <input type="text" name="name" id="name" required></label>
+    
+              
+                <label class="top" for="email">Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+    
+              
+                <label class="top" for="question">Comments <textarea id="question" name="question"></textarea></label>
+                <input class="submitBtn" type="submit" value="Submit">
+              </fieldset>
+              
+        </form>
+      </div> 
+    <section class="contact-info"> 
+        <h2>Our Contacts</h2>
+        <ul>
+            <li>Vihiga Chamber of Commerce</li>
+            <li>1060-50300</li>
+            <li>Maragoli - Kenya</li>
+        </ul>
+        <h3>Phone</h3>
+        <p>+(254) 715154733</p>
+        <h3>Email Adress</h3>
+        <p>info@vihigachamber.com</p>
+        <h3>Opening Hours</h3>
+        <p>8:00 am - 6:00 pm</p>
+    </section>
+  </main>
     <footer>
         <div class="footerlogo"><img src="images/logo.webp" alt="Website Logo" width="80" height="80"></div>
         <div class="information">
@@ -70,6 +93,5 @@
     </footer>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/navbutton.js"></script>
-    <script src="scripts/directory.js"></script>
 </body>
 </html>
