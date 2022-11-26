@@ -12,7 +12,7 @@
       "name": "Travel Inside Africa",
       "address": "1500-Nairobi",
       "contact": "2644719741",
-      "membershiplevel": "Silver",
+      "membershiplevel": "bronze",
       "websiteurl": "www.travelinsideafrica.com",
       "image": "images/travel.jpg"
     },
@@ -20,7 +20,7 @@
       "name": "Vihiga Tourism Center",
       "address": "1314-Maragoli",
       "contact": "2964187054",
-      "membershiplevel": "bronze",
+      "membershiplevel": "Silver",
       "websiteurl": "www.vihigatourism.com",
       "image": "images/vihiga.jpg"
     },
@@ -28,7 +28,7 @@
       "name": "Sosa Cottages",
       "address": "1964-Vihiga",
       "contact": "2854196622",
-      "membershiplevel": "Silver",
+      "membershiplevel": "Gold",
       "websiteurl": "https://sosacottages.com/",
       "image": "images/sosa.jpg"
     },
@@ -44,7 +44,7 @@
       "name": "BroadPark",
       "address": "1543-Maragoli",
       "contact": "5472551906",
-      "membershiplevel": "Gold",
+      "membershiplevel": "bronze",
       "websiteurl": "www.broadpark.com",
       "image": "images/broad.jpg"
     },
@@ -59,7 +59,7 @@
       "name": "Wagtail Safaris",
       "address": "52-Nairobi",
       "contact": "0756481453",
-      "membershiplevel": "Gold",
+      "membershiplevel": "bronze",
       "websiteurl": "www.wagtail.com",
       "image": "images/wag.jpg"
     },

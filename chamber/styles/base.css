@@ -379,6 +379,7 @@ button {
 .list div img {
 	display: none; /* smaller viewports only */
 }
+
 /* contact page */
 
 .contact-form { 
@@ -427,4 +428,11 @@ form label.top input:required:valid {
 	width: 100%;
 	padding: 16px;
 	border-radius: 4px; 
+}
+/*spoth section*/
+.spothlight1,
+.spothlight2,
+.spothlight3 img {
+	height: auto;
+	width: 100px;
 }

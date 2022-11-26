@@ -126,6 +126,8 @@
     }
 	/*CONTACT PAGE*/
 
-	.contact-info {text-align: center;}
+	.contact-info {
+		text-align: center;
+	}
 
 }
