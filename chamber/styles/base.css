@@ -429,10 +429,4 @@ form label.top input:required:valid {
 	padding: 16px;
 	border-radius: 4px; 
 }
-/*spoth section*/
-.spothlight1,
-.spothlight2,
-.spothlight3 img {
-	height: auto;
-	width: 100px;
-}
+

@@ -12,7 +12,7 @@ if (d.getDay() == 1 || d.getDay() == 2) {
     document.getElementById("banner").style.display = "block";
 }
 
-// add spotlight for gold members
+// add spotlight for Gold or Silver members
 const spotlightDiv = document.querySelectorAll(".spoth section");
 const data = "json/data.json"; 
 
@@ -25,7 +25,7 @@ fetch(data)
         const businesses = jsonObject['members']
 
         const filtered = businesses.filter((members) => {
-            return members.membershiplevel == "Silver" || members.membershiplevel == "Gold";
+            return members.membershiplevel == "Gold" || members.membershiplevel == "Silver";
 
         });
 
@@ -45,7 +45,7 @@ fetch(data)
 
             name.textContent = members.name;
             logo.setAttribute('src', members.image);
-            logo.setAttribute('alt',` ${members.name} logo`)
+            logo.setAttribute('alt',` ${members.name} logo`);
             logo.setAttribute('loading', 'lazy');
             address.textContent = members.address;
             phone.textContent = members.contact;
